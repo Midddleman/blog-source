@@ -107,3 +107,12 @@ deploy:
   branch: main
 
 favicon: /favicon.ico
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: true
+    tags: true
