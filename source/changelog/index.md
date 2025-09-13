@@ -3,6 +3,7 @@ title: Changelog
 author: Middleman
 date: 2025-09-13 17:32:54
 ---
+
 - **2025/9/11**
 趁着电脑还好用，用hexo + volantis 搭建了博客。
 更新了博客图标，个人简介的一部分。

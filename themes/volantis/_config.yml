@@ -156,7 +156,7 @@ navbar:
       rows: 
         - name: 更新记录
           icon: fa-solid fa-clock
-          url: changelog/
+          url: Changelog/
         - name: 关于我
           icon: fa-solid fa-user-astronaut
           url: Me/
