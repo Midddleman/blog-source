@@ -240,10 +240,10 @@ article:
   body:
     # 文章顶部信息
     # 从 meta_library 中取
-    top_meta: [author, category, date] #启用评论数量需在此添加
+    top_meta: [author, category, date, wordcount, counter] #启用评论数量需在此添加
     # 文章底部信息
     # 从 meta_library 中取
-    bottom_meta: [updated, tags, wordcount, counter]
+    bottom_meta: [updated, tags]
     # ----------------
     # 文章页脚组件
     footer_widget:
@@ -390,7 +390,7 @@ article:
 comments:
   title: <i class='fa-solid fa-comments'></i> 评论
   subtitle:
-  service: giscus
+  service: twikoo
   # 可选评论系统 #
 
   # artalk
@@ -517,8 +517,8 @@ comments:
   twikoo:
     path: # 全局评论地址
     # 其他配置项按照yml格式继续填写即可 除了 [el path] 选项
-    envId: xxxxxxxxxxxxxxx # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-    placeholder: #全局评论占位，也可以在管理面板中的配置管理处设置（此处优先级更高）
+    envId: https://zippy-cajeta-cbf73b.netlify.app/.netlify/functions/twikoo # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+    placeholder: Anything is fine~ #全局评论占位，也可以在管理面板中的配置管理处设置（此处优先级更高）
     visitor: true # 是否显示文章阅读数
 
   # Waline
