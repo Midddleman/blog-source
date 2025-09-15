@@ -1,16 +1,17 @@
-
-
-
 @echo off
-:: ????? Hexo ?????? & ??????
-:: ?????Middleman
+:: Auto Hexo blog commit & deploy script
+:: Author: Middleman
 
-:: ???? commit ???
-set /p msg=????????????????: 
+:: Change to your blog root directory
+cd /d E:\blog
+echo Current directory: %cd%
+
+:: Input commit message
+set /p msg=Please enter commit message: 
 
 echo.
 echo ==========================
-echo ?????? Git ??...
+echo Start Git commit...
 echo ==========================
 git add .
 git commit -m "%msg%"
@@ -19,7 +20,7 @@ git push origin main
 
 echo.
 echo ==========================
-echo ?????? Hexo ????...
+echo Start Hexo deploy...
 echo ==========================
 hexo clean
 hexo g
@@ -27,6 +28,5 @@ hexo d
 
 echo.
 echo ==========================
-echo ????????
-
-
+echo Deploy finished!
+pause
