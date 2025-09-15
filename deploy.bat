@@ -25,5 +25,5 @@ hexo d
 echo.
 echo ==========================
 echo ²¿ÊðÍê³É£¡
-cmd /k
+pause
 
