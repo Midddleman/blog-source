@@ -1,3 +1,6 @@
+cd /d E:\blog
+
+
 @echo off
 :: 自动化 Hexo 博客提交 & 部署脚本
 :: 作者：Middleman
