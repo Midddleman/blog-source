@@ -179,7 +179,7 @@ cover:
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'Middleman的博客'
-  subtitle: '<div style="margin-top:20px;text-align:center;font-size:20px;">世间最浪漫的事莫过于：<br/><b><i>"因为我想，所以便去做了"。'
+  subtitle: '<div style="margin-top:20px;text-align:center;font-size:20px;">世间最浪漫的事莫过于：<br/><b><i>“因为我想，所以便去做了。”'
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
     - name: 文档
