@@ -24,3 +24,10 @@ color_scheme:
     block:     '#0F172A'
     codeblock: '#111827'
     inlinecode: '#F59E0B'
+
+inject:
+  script:
+    - /js/custom.js
+
+custom_css:
+  font_smoothing: true # font-smoothing for webkit
