@@ -1,33 +1,35 @@
 color_scheme:
   common:
-    theme: '#F5C518'      
-    link : '#F1B90B'
-    button: '#00E5FF'
-    hover: '#FF8A00'
-    inner: '#FFFFFF'
-    selection: 'alpha(#00B2FF, 0.2)'
+    theme: '#002fa7'       # International Klein Blue
+    link: '#06bee1'        # Aero
+    button: '#db3a34'      # Poppy 红色按钮
+    hover: '#06bee1'       # Hover 用亮蓝色
+    inner: '#ffffff'       # White 内层
+    selection: 'alpha(#002fa7, 0.2)'
   light:
-    site_bg:   '#0D1117'
-    site_inner: '#111827'
-    site_footer: '#9CA3AF'
-    card:      '#0F172A'
-    text:      '#E5E7EB'
-    block:     '#0B1220'
-    codeblock: '#0B1220'
-    inlinecode: '#F59E0B'
+    site_bg: '#ffffff'     # White 背景
+    site_inner: '#f8f8f8'
+    site_footer: '#725752' # Liver
+    card: '#f0f0f0'
+    text: '#0a0908'        # 黑色文字
+    block: '#cccccc'
+    codeblock: '#eeeeee'
+    inlinecode: '#db3a34'  # Poppy 红色突出
   dark:
-    site_bg:   '#0B1020'
-    site_inner: '#E5E7EB'
-    site_footer: '#A3A3A3'
-    card:      '#111827'
-    text:      '#E6E9EF'
-    block:     '#0F172A'
-    codeblock: '#111827'
-    inlinecode: '#F59E0B'
+    site_bg: '#0a0908'     # 黑色背景
+    site_inner: '#1c1c1c'
+    site_footer: '#725752' # Liver
+    card: '#2d2221'
+    text: '#ffffff'
+    block: '#433431'
+    codeblock: '#1a1a1a'
+    inlinecode: '#06bee1'  # Aero 蓝点缀
 
-inject:
-  script:
-    - /js/custom.js
+
+
+# inject:
+#   script:
+#     - /js/custom.js
 
 custom_css:
   font_smoothing: true # font-smoothing for webkit

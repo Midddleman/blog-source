@@ -179,7 +179,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://bing.biturl.top/?resolution=1920&format=image&index=1&mkt=zh-CN
+  background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'Middleman的博客'
