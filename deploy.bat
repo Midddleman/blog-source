@@ -18,15 +18,4 @@ git commit -m "%msg%"
 git pull origin main --allow-unrelated-histories
 git push origin main
 
-echo.
-echo ==========================
-echo Start Hexo deploy...
-echo ==========================
-hexo clean
-hexo g
-hexo d
-
-echo.
-echo ==========================
-echo Deploy finished!
 pause
