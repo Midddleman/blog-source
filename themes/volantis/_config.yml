@@ -144,9 +144,7 @@ navbar:
     - name: 标签
       icon: fa-solid fa-tags
       url: tags/
-    - name: 归档
-      icon: fa-solid fa-archive
-      url: archives/
+    
     - name: 友链
       icon: fa-solid fa-link
       url: friends/
@@ -163,6 +161,12 @@ navbar:
     - name: English
       url: en/
       icon: fa fa-language
+    - name: 暗黑模式 # 可自定义
+      icon: fa-solid fa-moon # 可自定义
+      toggle: darkmode
+    - name: 穿梭
+      icon: fa-solid fa-rocket
+      url: https://blogs.quest
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
@@ -924,7 +928,7 @@ plugins:
   #   icon: fa-solid fa-moon # 可自定义
   #   toggle: darkmode
   darkmode:
-    enable: #true
+    enable: true
 
   # 旧版 Internet Explorer 淘汰行动
   # https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support
