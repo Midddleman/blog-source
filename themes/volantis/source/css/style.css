@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .widget.blogger {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: transparent !important;
+    margin-top: 32px;
+    backdrop-filter: none;
+    color: #000 !important;
+    }
+  }
