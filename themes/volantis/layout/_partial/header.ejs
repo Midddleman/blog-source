@@ -26,7 +26,7 @@
         </a>
       <% } %>
 
-			<div class='menu navigation'>
+			<div class='menu navigation left'>
 				<ul class='nav-list-h m-pc'>
           <%
           let menu_list = theme.navbar.menu;
@@ -90,6 +90,16 @@
           <% }) %>
 				</ul>
 			</div>
+
+      <div class='menu navigation right'>
+       <ul class='nav-list-h-right m-pc'>
+        <% getList(theme.navbar.menu2).forEach(function(value){ %>
+         <% menu(value, 'pc') %>
+        <% }) %>
+       </ul>
+      </div>
+
+
       <% if (theme.search.enable) { %>
       <div class="m_search">
         <form name="searchform" class="form u-search-form">

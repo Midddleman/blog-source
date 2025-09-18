@@ -20,12 +20,22 @@
   #wrapper
     height: 100%
     disable-user-select()
-    .nav-main,.nav-sub
+    .nav-main
       display: flex
       flex-wrap: nowrap
       justify-content: space-between
       align-items: center
-
+      // 左边菜单自动撑开
+      .menu.navigation.left
+        flex: 1
+      // 右边菜单只占自身宽度
+      .menu.navigation.right
+        flex: 0
+    .nav-sub
+      display: flex
+      flex-wrap: nowrap
+      justify-content: space-between
+      align-items: center
     .nav-main
       trans()
 
@@ -213,6 +223,7 @@ ul.m-pc,ul.list-v
 ul.nav-list-h
   display: flex
   align-items: stretch
+  flex: 1 !important
   &>li
     position: relative
     justify-content: center
@@ -223,6 +234,25 @@ ul.nav-list-h
       -webkit-font-smoothing: antialiased
       -moz-osx-font-smoothing: grayscale
       font-weight: 600
+
+ul.nav-list-h-right
+  display: flex
+  align-items: stretch
+  justify-content: flex-end   // 👈 新增：让整体靠右
+  flex: 0 !important
+  &>li
+    position: relative
+    justify-content: center
+    height: 100%
+    line-height: 2.4
+    border-radius: $border-button
+    >a
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+      font-weight: 600
+      >i
+        font-size: 24px !important
+        vertical-align: middle
 
 ul.list-v
   z-index: 1
@@ -282,7 +312,8 @@ ul.list-v
       display: block
       padding: 0 8px
       >i
-        margin-right: 4px
+        margin-right: 5px
+        font-size: 18px
 
 .l_header ul.nav-list-h>li
   color: var(--color-list)
