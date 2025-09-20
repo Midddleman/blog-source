@@ -131,7 +131,7 @@ scroll_smooth: true
 navbar:
   visiable: always # always, auto
   logo: # choose [img] or [icon + title]
-    img: /favicon.jpg
+    img: /navbar.png
     icon:
     title:
   menu:
