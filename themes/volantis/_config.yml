@@ -153,7 +153,7 @@ navbar:
           url: categories/short/
     - name: 关于
       icon: fa-solid fa-info-circle
-      url: about/
+      url:
       rows: 
         - name: 更新记录
           icon: fa-solid fa-clock
