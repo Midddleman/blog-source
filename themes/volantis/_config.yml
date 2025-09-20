@@ -136,11 +136,21 @@ navbar:
     title:
   menu:
     - name: 博客
-      icon: fa-solid fa-rss
+      icon: fa-solid fa-blog
       url: /
     - name: 分类
       icon: fa-solid fa-folder-open
       url: categories/
+      rows:
+        - name: 研究
+          icon: fa-solid fa-laptop-code
+          url: categories/research/
+        - name: 日常
+          icon: fa-solid fa-calendar-day
+          url: categories/daily/
+        - name: 随笔
+          icon: fa-solid fa-coffee
+          url: categories/short/
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
