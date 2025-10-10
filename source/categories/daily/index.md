@@ -2,6 +2,7 @@
 title: 生活记录
 layout: page
 description: 记录日常、旅行、桌游与小确幸
+type: "daily-page"
 ---
 
 <div class="cards">
@@ -18,7 +19,7 @@ description: 记录日常、旅行、桌游与小确幸
 
   <div class="card">
     <a href="/categories/daily/桌游/">
-      <img src="/images/boardgame.jpg" alt="桌游">
+      <img src="/images/boardgame.png" alt="桌游">
       <div class="card-body">
         <h3>🎲 桌游</h3>
         <p>COC、DND、KDM 的记录与感想</p>
@@ -28,7 +29,7 @@ description: 记录日常、旅行、桌游与小确幸
 
   <div class="card">
     <a href="/categories/daily/生活/">
-      <img src="/images/life.jpg" alt="生活">
+      <img src="/images/life.png" alt="生活">
       <div class="card-body">
         <h3>🌿 日常</h3>
         <p>生活中的小发现、小确幸</p>

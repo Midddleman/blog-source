@@ -147,7 +147,7 @@ navbar:
           url: categories/research/
         - name: 日常
           icon: fa-solid fa-calendar-day
-          url: categories/daily/
+          url: /daily/
         - name: 随笔
           icon: fa-solid fa-coffee
           url: categories/short/
