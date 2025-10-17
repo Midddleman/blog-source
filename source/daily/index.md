@@ -2,6 +2,8 @@
 title: 生活记录
 layout: page
 description: 记录旅行、桌游和生活
+comments: false
+wordcount: false
 ---
 
 <div class="cards">
