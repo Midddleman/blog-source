@@ -1,0 +1,33 @@
+@echo off
+:menu
+cls
+echo.
+echo 请选择要执行的操作：
+echo 1. hexo clean g s
+echo 2. hexo clean g d
+echo 3. git add . ^&^& git commit -m "update" ^&^& git push
+echo 0. 退出
+echo.
+
+set /p choice=请输入数字并回车: 
+
+if "%choice%"=="1" (
+    hexo clean && hexo g
+    start "Hexo Server" cmd /k "hexo s"
+    echo Hexo 本地服务器已在新窗口启动。
+    timeout /t 2 /nobreak >nul
+) else if "%choice%"=="2" (
+    hexo clean && hexo g && hexo d
+) else if "%choice%"=="3" (
+    git add .
+    set /p msg=请输入 commit 内容: 
+    git commit -m "%msg%"
+    git push
+) else if "%choice%"=="0" (
+    exit
+) else (
+    echo 无效的选项。
+)
+echo.
+pause
+goto menu
