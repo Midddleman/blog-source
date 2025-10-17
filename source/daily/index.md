@@ -29,8 +29,8 @@ wordcount: false
   </div>
 
   <div class="card">
-    <a href="/categories/daily/生活/">
-      <img src="/images/life.png" alt="生活">
+    <a href="/categories/daily/日常/">
+      <img src="/images/life.png" alt="日常">
       <div class="card-body">
         <h3>🌿 日常</h3>
         <p>生活中的小发现、小确幸</p>
