@@ -140,7 +140,7 @@ navbar:
       url: /
     - name: 分类
       icon: fa-solid fa-folder-open
-      url: categories/
+      url: 
       rows:
         - name: 研究
           icon: fa-solid fa-laptop-code
