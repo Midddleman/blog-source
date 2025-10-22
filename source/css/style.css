@@ -7588,3 +7588,67 @@ header {
 .card .card-body h3::before {
   content: none !important;
 }
+
+/* 设置默认背景颜色或备用图 */
+body {
+  background-color: #f5f5f5; /* 默认浅灰色，防止白屏 */
+  background-image: url('/images/background1.jpg'); /* 可选：本地备用图 */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background 0.5s ease; /* 平滑过渡 */
+}
+/* 当第三方背景加载成功后，会覆盖这里的默认背景 */
+
+/* 初始状态：隐藏 tooltip */
+.bing-tip .tooltip {
+  font-family:  "思源黑体", "PingFang SC", "Microsoft YaHei", sans-serif;
+  position: absolute;
+  bottom: 40%;
+  right: 20%;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  font-size: 15px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  z-index: 3;
+  opacity: 0; /* ← 初始不可见 */
+  animation: 
+    fadeIn 0.5s ease-in forwards 2s,   /* 2s后淡入 */
+    fadeOut 1s ease-in-out forwards 5s; /* 5s后淡出*/
+  overflow: hidden;
+}
+
+/* 进度条延后开始动画（出现后才跑） */
+.bing-tip .tooltip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #06bee1, #002fa7);
+  animation: progress 2s linear forwards;
+  animation-delay: 2.5s; /* ← 出现0.5秒后才开始进度条 */
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* 出现动画 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 进度条动画 */
+@keyframes progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+/* tooltip 消失动画 */
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

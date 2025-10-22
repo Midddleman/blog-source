@@ -1,4 +1,9 @@
 <div class='cover-body'>
+    <% if (theme.cover.background) { %>
+      <div class="bing-tip">
+        <div class="tooltip">本页面使用 Bing 每日壁纸</div>
+      </div>
+    <% } %>
   <div class='top'>
     <% if (theme.cover.logo) { %>
       <img no-lazy class='logo' src='<%- url_for(theme.cover.logo) %>'/>

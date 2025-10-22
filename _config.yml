@@ -117,3 +117,8 @@ jsonContent:
     content: true
     categories: true
     tags: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
