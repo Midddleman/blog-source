@@ -16,7 +16,7 @@ def deploy_hexo():
 
 def git_push():
     msg = input("\n请输入 commit 内容: ")
-    os.system(f'git add . && git commit -m "{msg}" && git push')
+    os.system(f'git add . && git commit -m "{msg}" && git push origin main')
     input("\n推送完成，按 Enter 返回菜单...")
 
 def main():
