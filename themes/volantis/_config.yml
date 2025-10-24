@@ -176,10 +176,10 @@ navbar:
           url: /
         - name: English
           icon: fi fi-us
-          url: /en/
+          url: /
         - name: 日本語
           icon: fi fi-jp
-          url: /ja/ 
+          url: /
   search: Search...   # Search bar placeholder
 
 

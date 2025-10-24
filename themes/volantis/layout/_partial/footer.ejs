@@ -65,3 +65,20 @@
     <!-- Custom Files footer end-->
   </footer>
 <% } %>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.fi-us, .fi-jp').forEach(btn => {
+    const a = btn.closest('a');
+    if (a) {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const lang = btn.classList.contains('fi-us') ? 'en' : 'ja';
+        const currentUrl = window.location.href;
+        const translateUrl =
+          `https://translate.google.com/translate?sl=auto&tl=${lang}&u=${encodeURIComponent(currentUrl)}`;
+        window.location.href = translateUrl;
+      });
+    }
+  });
+});
+</script>
