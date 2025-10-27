@@ -7,7 +7,7 @@ description: 介绍和记录我的研究
 <div class="cards">
 
   <div class="card">
-    <a href="/categories/research/本科研究/">
+    <a href="/categories/research/undergraduatethesis/">
       <img src="/images/travel.jpg" alt="本科研究">
       <div class="card-body">
         <h3>📕 本科研究</h3>
@@ -17,7 +17,7 @@ description: 介绍和记录我的研究
   </div>
 
   <div class="card">
-    <a href="/categories/research/硕士研究/">
+    <a href="/categories/research/graduatethesis/">
       <img src="/images/boardgame.png" alt="硕士研究">
       <div class="card-body">
         <h3>📗 硕士研究</h3>
@@ -27,7 +27,7 @@ description: 介绍和记录我的研究
   </div>
 
   <div class="card">
-    <a href="/categories/research/学习笔记/">
+    <a href="/categories/research/notes/">
       <img src="/images/studynotes.png" alt="笔记">
       <div class="card-body">
         <h3>📚 学习笔记</h3>
@@ -37,10 +37,10 @@ description: 介绍和记录我的研究
   </div>
 
   <div class="card">
-    <a href="/categories/research/日常/">
+    <a href="/categories/research/researchrecord/">
       <img src="/images/life.png" alt="日常">
       <div class="card-body">
-        <h3>🌿 日常</h3>
+        <h3>🌿 研究日常</h3>
         <p>记录研究的日常</p>
       </div>
     </a>

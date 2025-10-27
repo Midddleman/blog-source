@@ -1,39 +1,38 @@
 ---
 title: 生活记录
 layout: page
-description: 记录旅行、桌游和生活
-comments: false
-wordcount: false
+description: 记录日常、旅行、桌游与我
+type: "daily-page"
 ---
 
 <div class="cards">
 
   <div class="card">
-    <a href="/categories/daily/旅行/">
+    <a href="/categories/daily/travel/">
       <img src="/images/travel.jpg" alt="旅行">
       <div class="card-body">
         <h3>✈️ 旅行</h3>
-        <p>走过京都、东京、北海道的小记</p>
+        <p>周游日本</p>
       </div>
     </a>
   </div>
 
   <div class="card">
-    <a href="/categories/daily/桌游/">
+    <a href="/categories/daily/boardgame/">
       <img src="/images/boardgame.png" alt="桌游">
       <div class="card-body">
         <h3>🎲 桌游</h3>
-        <p>COC、DND、KDM 的记录与感想</p>
+        <p>美、德、毛全玩，最近还想入坑跑团</p>
       </div>
     </a>
   </div>
 
   <div class="card">
-    <a href="/categories/daily/日常/">
-      <img src="/images/life.png" alt="日常">
+    <a href="/categories/daily/dailyrecord/">
+      <img src="/images/life.png" alt="每日记录">
       <div class="card-body">
-        <h3>🌿 日常</h3>
-        <p>生活中的小发现、小确幸</p>
+        <h3>🌿 每日记录</h3>
+        <p>为了让过去不被遗忘</p>
       </div>
     </a>
   </div>

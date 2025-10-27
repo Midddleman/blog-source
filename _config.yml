@@ -69,6 +69,16 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  生活: daily
+  旅行: travel
+  研究: research
+  每日记录: dailyrecord
+  桌游: boardgame
+  随笔: short
+  本科研究: undergraduatethesis
+  硕士研究: graduatethesis
+  笔记: notes
+  研究日常: researchrecord
 tag_map:
 
 # Metadata elements

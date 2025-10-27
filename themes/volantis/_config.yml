@@ -145,7 +145,7 @@ navbar:
         - name: 研究
           icon: fa-solid fa-laptop-code
           url: /research/
-        - name: 日常
+        - name: 生活
           icon: fa-solid fa-calendar-day
           url: /daily/
         - name: 随笔
