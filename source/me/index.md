@@ -1,7 +1,13 @@
 ---
+layout: docs
+seo_title: 关于我
+bottom_meta: false
+sidebar: []
 title: Me
 author: Middleman
 date: 2025-09-13 23:42:53
+twikoo:
+  placeholder: 有什么想对我说的呢？
 ---
 
 - **Overall**

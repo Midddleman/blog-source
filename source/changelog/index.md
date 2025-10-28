@@ -8,6 +8,8 @@ date: 2025-09-13 17:32:54
 
 {% timenode 2025/10/28 %}
   - 更改了时间轴样式
+  - 更新了me界面
+  - 加入categories和tags页面
 {% endtimenode %}
 
 {% timenode 2025/10/25 %}
